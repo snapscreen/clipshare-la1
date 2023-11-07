@@ -1,6 +1,6 @@
 # ClipShare LA1 demo
 
-Reach ClipShare LA1 demo via https://wbsc.clipshare.tv
+Reach ClipShare LA1 demo via https://la1.clipshare.tv
 The website is hosted on netlify and built with GatsbyJS.
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/820d853d-a09d-4538-9985-792e7429211c/deploy-status)](https://app.netlify.com/sites/clipshare-wbsc/deploys)
