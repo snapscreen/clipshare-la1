@@ -10,7 +10,7 @@ The website is hosted on netlify and built with GatsbyJS.
 | What?           | Details / Where?                                                      |
 | --------------- | --------------------------------------------------------------------- |
 | Framework       | [GatsbyJS](https://www.gatsbyjs.com/)                                 |
-| Deployment      | https://clipshare-wbsc.netlify.app fully automated GitOps Flow     |
+| Deployment      | https://clipshare-la1.netlify.app fully automated GitOps Flow     |
 | Package-Manager | `yarn`                                                                |
 | Language        | `Typescript`                                                          |
 
