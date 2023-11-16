@@ -22,7 +22,10 @@ const LinkSharePage: React.FC<PageProps> = () => {
           .setApiUrl(`https://api.us.snapscreen.com`)
           .setClipShareApiUrl(`https://clip.us.snapscreen.com/api`)
           .setAccessTokenProvider(fetchAccessTokenFromApi)
-          .onClipCreated((clip) => console.log('Clip shared', clip))
+          .onClipCreated((clip) => {
+            console.log('Clip shared', clip);
+            location.href = clip._links.player.href;
+          })
           .onClose(() => console.log('SDK:onClose'))
           .appendTo(document.body);
   };
